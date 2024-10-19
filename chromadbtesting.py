@@ -19,7 +19,7 @@ collection.add(
 
 
 results = collection.query(
-    query_texts=["This is a document about Pennsylvania Station"], # Chroma will embed this for you
+    query_texts=["This is a document about Indira Gandhi International Airport"], # Chroma will embed this for you
     n_results=2 # how many results to return
 )
 print(results)
