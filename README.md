@@ -25,6 +25,16 @@ There are some things you will need to change for your use case:
 
 Feel free to change the Streamlit UI as you wish.
 
+To run the application - go to app folder and run the command "streamlit run main.py".
+
+### Potential Errors
+
+- ValueError: Could not connect to tenant default_tenant. Are you sure it exists?
+
+What I did was just uninstall and reinstall chromadb with pip. You may have to install an older version of chromadb.
+
+Please let me know of any other errors you face.
+
 ## Credits
 
 Acknowledgements:
