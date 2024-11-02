@@ -15,11 +15,12 @@ Atliq is a Software Development company that can provide a dedicated software de
 
 Install the libraries given in requirements.txt
 
-There are some things you will need to change for your use case:
+There are some things you may need to change for your use case:
 
 1. The given email template talking about your company (in chains.py)
 2. the Groq API key (make a .env file to store it)
 3. In my_portfolio.csv - change the links for your portfolios for each skill. Feel free to add skills as necessary.
+4. The Job URL in app/main.py
 
 Feel free to change the Streamlit UI as you wish.
 
